@@ -1,0 +1,178 @@
+footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+
+footer .ITEM_FOOTER {
+    flex: 1;
+}
+
+
+footer p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+footer >div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+footer a {
+    color: white;
+}
+
+
+.CONTAINER {
+    display: flex;
+    flex-direction: column;
+    font-family: Impact;
+}
+
+.ITEM {
+    background-color: #1F2937;
+    height: 600px;
+    display: flex;
+}
+
+.ITEM >ITEM1 {
+    flex: 1;
+}
+
+#CONTAINER1 {
+    align-items: center;
+    justify-content: center;
+}
+
+#LEFT1 {
+    align-items: flex-end;
+    margin: 40px;
+}
+
+#LEFT1 >h1 {
+    color: white;
+}
+
+
+#LEFT1 >p {
+    color: grey;
+}
+
+#LEFT1 >a >button {
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+}
+
+
+#RIGHT1 >img {
+    width: 400px;
+    height: 300px;
+    
+}
+
+
+.ITEM >RIGHT1 {
+    align-items: center;
+    justify-content: center;
+}
+
+
+#PLANES {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+#PLANES >ITEM2 {
+    align-items: center;
+    justify-content: center;
+}
+
+#PLANES >p {
+    font-size: 28px;
+    align-self: center;
+}
+
+#PLANECONTAINER {
+    display: flex;
+    justify-content: space-around;
+}
+
+.PLANEITEM >img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid blue;
+}
+
+.QUOTE {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    height: 400px;
+}
+
+.QUOTE {
+    display:flex;
+    flex-direction: column;
+}
+
+.AUTOR {
+    align-self: flex-end;
+}
+
+.AUTOR{
+    padding: 35px;
+}
+
+.SIGNUP {
+    background-color: whitesmoke;
+}
+
+.SIGNCONTAINER {
+    width: 1920px;;
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ITEM3 {
+    flex: 1;
+}
+
+.ITEM3 >a >button{
+    border-radius: 20px;
+    border: 10px white;
+    height: 100px;
+    width: 200px;
+    font-size: 25px;
+    background-color: darkblue;
+    color: white;
+}
+
+.LEFT2 {
+    color: white;
+}
+
+.LEFT2 >h3 {
+    font-size: 36px;
+}
+
+.LEFT2 >p {
+    font-size: 20px;
+}
+
+.ITEM3 {
+    margin: 200px;
+}
